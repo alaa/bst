@@ -45,7 +45,7 @@ class Bst
         _insert(root.right, number)
       end
     else
-      _insert root.right, num
+      _insert root.right, number
     end
   end
 
