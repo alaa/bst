@@ -63,7 +63,7 @@ end
 
 bst = Bst.new
 
-data = [1,2,3,4,5,6,7,8,9,10].shuffle
+data = (1..10).to_a.shuffle
 print data
 puts ""
 
